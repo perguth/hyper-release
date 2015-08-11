@@ -6,7 +6,7 @@ Using this script you don't have to care about increasing version numbers when u
 
 ## Install
 ```sh
-npm install hyper-release
+npm install hyper-release hyperboot
 ```
 
 ## Usage

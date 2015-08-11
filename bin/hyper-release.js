@@ -19,11 +19,12 @@ function runNPMVersion () {
 		+ version
 		+ (message ? ' -m ' + message : '')
 		+ (version === 'prerelease' ? '' : ' --no-git-tag-version')
-	numericVersion = exec(cmd).toString('utf8').substr(1) }
+	numericVersion = exec(cmd).toString('utf8').substr(1)
+	log('Using version number:', numericVersion) }
 
 function runHyperbootRelease () {
 	cmd = 'hyperboot release '
-		+ 'concat/bundle.html '
+		+ bundle
 		+ ' -v ' + numericVersion
 		+ (message ? ' -m ' + message : '')
 	var stdout = exec(cmd).toString('utf8')

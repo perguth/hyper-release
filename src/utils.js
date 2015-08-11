@@ -1,5 +1,5 @@
-// Some code taken from `npm-release` (MIT) by Tom Ashworth
-// https://github.com/phuu/npm-release/blob/master/bin/npm-release
+// Some logic taken from `npm-release` (MIT) by Tom Ashworth
+// https://github.com/phuu/npm-release
 
 var fs = require('fs')
 var path = require('path')
