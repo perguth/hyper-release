@@ -1,0 +1,27 @@
+{
+  "name": "hyper-release",
+  "version": "0.1.0",
+  "description": "Creates a hyperboot release and bumps the npm version.",
+  "main": "index.js",
+  "bin": {
+    "hyper-release": "hyper-publish.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperboot",
+    "npm",
+    "version",
+    "versioning",
+    "build",
+    "tool",
+    "building"
+  ],
+  "author": "Per Guth <mail@perguth.de> (http://perguth.de)",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "optimist": "^0.6.1"
+  }
+}
