@@ -1,5 +1,7 @@
 # hyper-release
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pguth/hyper-release.svg)](https://greenkeeper.io/)
+
 *Creates a [hyperboot](https://github.com/substack/hyperboot) release utilizing `npm version`.*
 
 Using this script you don't have to care about increasing version numbers when using `hyperboot release`. This script utilizes `npm version` to keep track of and increase the version number in your `package.json`.
